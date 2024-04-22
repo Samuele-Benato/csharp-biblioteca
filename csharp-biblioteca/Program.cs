@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Library library = new Library();
+
+            Console.WriteLine("Inserisci il titolo o l'ID del documento:");
+            string searchedDocument = Console.ReadLine();
+
+            library.SearchDocument(searchedDocument);
         }
     }
 }
