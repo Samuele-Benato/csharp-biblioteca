@@ -35,12 +35,10 @@ namespace csharp_biblioteca
         {
             if(searchedDocument == Id || searchedDocument == Title)
             {
-                Console.WriteLine($"Trovato {Title} con codice {Id}");
                 return true;
             }
             else
             {
-                Console.WriteLine($"Spiacenti, nessun titolo corrispondente");
                 return false;
             }
                 
